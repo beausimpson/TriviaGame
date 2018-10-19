@@ -14,38 +14,40 @@
     <!-- link to page specific CSS -->
     <link rel="stylesheet " type="text/css" href="assets/css/style.css">
 
-    <!-- link to jQuery -->
-    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-        crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <div class="continer">
-        <div class="row" id="question">
-            <div class="col-md-12">
-                <!-- game title -->
-                <!-- question -->
-
-            </div>
-        </div>
+    <div class="container-fluid" id="main-container">
         <div class="row">
-            <div class="col-md-6" id="timer">
-                <!-- digital timer counting down from 15 secs -->
-                <div id="timer-display">00:15</div>
-                <button id="start">Start Game</button>
-
-            </div>
-            <div class="col-md-6" id="answers">
-                <!-- 4 possible answers -->
-                <!-- 1 correct answer -->
-                <!-- on hover, styling changes -->
-                <!-- after game ends display #s correct / wrong -->
-                <!-- reset button to restart game -->
-
-
+            <div class="row">
+                <div class="col-md-4">
+                    <!-- digital timer counting down from 60 secs -->
+                    <div id="timer">
+                        <div id="timer-display"></div>
+                        <!-- start game button -->
+                        <div id="start-button">
+                            <button id="start">Start Game</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <!-- questions and answer possibilities -->
+                    <div id="quiz"></div>
+                    <!-- on hover, answer styling changes -->
+                    <div id="results">
+                        <button id="submit" class="results">Check Your Answers</button>
+                        <!-- reset button to restart game -->
+                        <!-- <button id="restart"></button> -->
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+
+    <!-- link to jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+
     <!-- link to App Javascript file -->
     <script src="assets/javascript/app.js"></script>
 

@@ -1,0 +1,56 @@
+
+
+/* main container */
+#main-container {
+    /* official simpson's yellow */
+    background: #ffd90f;
+}
+
+/* timer */
+#timer {
+    padding: 50px;
+    
+}
+
+#timer-display {
+    font-size: 48px;
+    background: #44b9b3;
+    width: 200px;
+    padding: 20px 35px;
+    color: azure;
+    position: fixed;
+    border-radius: 5px;
+}
+
+/* start game button */
+#start {
+    margin-top: 120px;
+    margin-left: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    background: red;
+    color: #fff;
+}
+
+/* guestion and answers */
+.question {
+    padding-bottom: 5px;
+}
+
+.answers {
+    padding-bottom: 20px;
+}
+
+label:hover {
+    color: #fff;
+}
+
+
+/* results */
+.results {
+    border-radius: 5px;
+    background: red;
+    padding: 10px;
+    margin-bottom: 100px;
+    color: #fff;
+}
