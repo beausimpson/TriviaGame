@@ -1,11 +1,16 @@
 # TriviaGame
+[Deployed Site](https://beausimpson.github.io/TriviaGame/)
 
--- Timed Trivia Game
--- The Simpson's themed
--- Built using jQuery, JavaScript, Html and CSS/Bootstrap
+## The Simpson's themed Timed Trivia Game
+### Built using:
+- JavaScript
+- jQuery
+- Html
+- CSS/Bootstrap CSS Framework
 
 
-Instructions:
--- Clcik start to start timer
--- answer as many of the questions before the timer ends
--- if finihed before the timer ends, click get results to get number of questions correct
+### Instructions:
+- Clcik start to start timer
+- Answer as many of the questions before the timer ends
+- If finihed before the timer ends
+- Click get results to get number of questions correct
